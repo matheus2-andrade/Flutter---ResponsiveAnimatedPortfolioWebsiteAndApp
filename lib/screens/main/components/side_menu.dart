@@ -7,6 +7,7 @@ import 'area_info_text.dart';
 import 'coding.dart';
 import 'knowledges.dart';
 import 'my_info.dart';
+import 'dart:html' as html;
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
@@ -41,15 +42,21 @@ class SideMenu extends StatelessWidget {
                   Divider(),
                   SizedBox(height: defaultPadding / 2),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        html.window.open(
+                            "https://drive.google.com/file/d/1fLENYXQcCOftcEYuBTKNe1ADfDNY8xxW/view?usp=sharing",
+                            "CV");
+                      },
                       child: FittedBox(
                         child: Row(
                           children: [
                             Text(
                               "DOWNLOAD CV",
                               style: TextStyle(
-                                color:
-                                    Theme.of(context).textTheme.bodyText1!.color,
+                                color: Theme.of(context)
+                                    .textTheme
+                                    .bodyText1!
+                                    .color,
                               ),
                             ),
                             SizedBox(height: defaultPadding / 2),
@@ -64,10 +71,19 @@ class SideMenu extends StatelessWidget {
                       children: [
                         Spacer(),
                         IconButton(
-                            onPressed: () {},
-                            icon: SvgPicture.asset("assets/icons/linkedin.svg")),
+                            onPressed: () {
+                              html.window.open(
+                                  "https://www.linkedin.com/in/matheusandrade47/",
+                                  "Linkedin");
+                            },
+                            icon:
+                                SvgPicture.asset("assets/icons/linkedin.svg")),
                         IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              html.window.open(
+                                  "https://github.com/matheus2-andrade",
+                                  "GitHub");
+                            },
                             icon: SvgPicture.asset("assets/icons/github.svg")),
                         IconButton(
                             onPressed: () {},
