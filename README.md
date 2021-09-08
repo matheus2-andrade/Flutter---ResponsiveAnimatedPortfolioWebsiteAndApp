@@ -25,3 +25,5 @@
 - Poppins [link](https://fonts.google.com/specimen/Poppins)
 
 ### Responsive and Animated Portfolio Website & App Final UI
+
+![Alt Text](https://media2.giphy.com/media/FPt1wPysLhrbytgmYH/giphy.gif?cid=790b761190b312f1147d6fdda8865c5778e3010c1e2801a4&rid=giphy.gif&ct=g)
