@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_profile/constants.dart';
-import 'package:flutter_profile/screens/main/components/skills.dart';
+import 'package:Matheus_Andrade/constants.dart';
+import 'package:Matheus_Andrade/screens/main/components/skills.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import 'area_info_text.dart';

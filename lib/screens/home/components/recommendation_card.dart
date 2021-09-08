@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_profile/models/Recommendation.dart';
+import 'package:Matheus_Andrade/models/Recommendation.dart';
 
 import '../../../constants.dart';
 
