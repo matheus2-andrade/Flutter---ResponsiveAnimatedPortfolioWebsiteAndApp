@@ -16,7 +16,7 @@ class MyProjects extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "My Projects",
+          "Meus Projetos",
           style: Theme.of(context).textTheme.headline6,
         ),
         const SizedBox(
@@ -63,6 +63,7 @@ class ProjectsGridView extends StatelessWidget {
         ),
         itemBuilder: (context, index) => ProjectCard(
               project: projects[index],
+
             ));
   }
 }

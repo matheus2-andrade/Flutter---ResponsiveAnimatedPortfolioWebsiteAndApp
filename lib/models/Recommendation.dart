@@ -6,27 +6,27 @@ class Recommendation {
 
 final List<Recommendation> recommendations = [
   Recommendation(
-    name: "Kolapo Obanewa",
-    source: "Linkedin",
+    name: "Melquisedeque Costa",
+    source: "Analista de infraestrutura Pleno",
     text:
-        "I have had the pleasure of working with Matheus on two flutter projects and what strikes me the most about his work is his ability to write clean and reusable codes with best practices. He is hardworking and makes it so easy to transcribe ideas into beautiful and testable flutter apps. He is a Flutter/Dart gem and has my highest recommendation",
+        "Tive a oportunidade de trabalhar com Matheus ainda quando ele era estagiário e apesar da carga horária reduzida ele conseguia se destacar através de seus resultados e entendimento da linguagem flutter. Recomendo Matheus em qualquer lugar que eu for.",
   ),
   Recommendation(
-    name: "Reza Shahbazi",
-    source: "Linkedin",
+    name: "Lucas Fernando",
+    source: "Front-End Developer",
     text:
-        "Matheus is a great asset for any organization. It's a true pleasure working with him at TakeIn. His flutter skill is amazing as well as his professionalism and being a good team player. Abu's problem solving skill is also one of his great skills.",
+        "Matheus é um rapaz extremamente inteligente, calmo, focado e competente, sempre está em busca de adquirir novos conhecimentos, adora desafios e sabe ouvir os outros pontos de vista dos companheiros de time.",
   ),
   Recommendation(
-    name: "Diadem",
-    source: "YouTube",
+    name: "Thiago Hercules",
+    source: "Dev. Manager",
     text:
-        "I like your way you doing your project and you taught us. After I watch this I like and hit the subscribe button and then watch your video playlist one by one!! Within three hours, I learned a lot! I share your channel in my college WhatsApp group!",
+        "Tive a oportunidade de estudar com Matheus a muitos anos atrás. Desde então não mudou sua postura enquanto pessoa e profissional, recentemente trabalhamos juntos como freelancers e tive a oportunidade de acompanhar seu desenvolvimento enquanto programador, é um profissional completo.",
   ),
   Recommendation(
-    name: "Roshan Shetty",
-    source: "YouTube",
+    name: "Felipe Melo de Almeida",
+    source: "WEB Design | Front-End",
     text:
-        "Very straightforward, professional and also the best flutter developer! It will be great if you add some comments to your steps with 0.5 seconds pause before implementing this step. By meaning of steps, I mean not the basic, but structural steps, like 10-20 steps per video. However, thank you very much!",
+        "Matheus é uma pessoa dedicada, buscando sempre estar atualizado nas tecnologias que são tendência no mercado. Visando praticidade na sua forma de trabalhar, mantém seu ambiente sempre preparado para novos desafios, sempre focando nos detalhes, e assim, destacando-se pela qualidade no que produz.",
   ),
 ];

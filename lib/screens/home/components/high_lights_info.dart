@@ -22,10 +22,10 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HeighLight(
                         counter: AnimatedCounter(
-                          value: 20,
+                          value: 10,
                           text: "+",
                         ),
-                        label: "Projects"),
+                        label: "Projetos"),
                     HeighLight(
                         counter: AnimatedCounter(
                           value: 10,
@@ -40,16 +40,16 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HeighLight(
                         counter: AnimatedCounter(
+                          value: 20,
+                          text: "+",
+                        ),
+                        label: "Repositórios no GitHub"),
+                    HeighLight(
+                        counter: AnimatedCounter(
                           value: 30,
                           text: "+",
                         ),
-                        label: "Github Repositories"),
-                    HeighLight(
-                        counter: AnimatedCounter(
-                          value: 100,
-                          text: "+",
-                        ),
-                        label: "Stars"),
+                        label: "Estrelas"),
                   ],
                 )
               ],
@@ -59,10 +59,10 @@ class HighLightsInfo extends StatelessWidget {
               children: [
                 HeighLight(
                     counter: AnimatedCounter(
-                      value: 20,
+                      value: 10,
                       text: "+",
                     ),
-                    label: "Projects"),
+                    label: "Projetos"),
                 HeighLight(
                     counter: AnimatedCounter(
                       value: 10,
@@ -71,16 +71,16 @@ class HighLightsInfo extends StatelessWidget {
                     label: "Apps"),
                 HeighLight(
                     counter: AnimatedCounter(
+                      value: 20,
+                      text: "+",
+                    ),
+                    label: "Repositórios no Github"),
+                HeighLight(
+                    counter: AnimatedCounter(
                       value: 30,
                       text: "+",
                     ),
-                    label: "Github Repositories"),
-                HeighLight(
-                    counter: AnimatedCounter(
-                      value: 100,
-                      text: "+",
-                    ),
-                    label: "Stars"),
+                    label: "Estrelas"),
               ],
             ),
     );

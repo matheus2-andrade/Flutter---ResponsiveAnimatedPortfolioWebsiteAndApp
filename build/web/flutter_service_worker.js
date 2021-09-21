@@ -4,13 +4,13 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "f8ef18895bdee719638b16f8064a6b81",
-"assets/assets/icons/behance.svg": "35ad2d47e647d0b168e7707b2984c6b5",
-"assets/assets/icons/check.svg": "4220c82511cc1dfb40b8bba7d25c5f55",
-"assets/assets/icons/download.svg": "628700a3031424d215a441fab2da1731",
-"assets/assets/icons/dribble.svg": "d392567c5678d42472d2c7b766268101",
-"assets/assets/icons/github.svg": "9226aa209923e38c0a6ddcb236e2bc68",
-"assets/assets/icons/linkedin.svg": "5b2195ddf9e879047dd8a163c4194920",
-"assets/assets/icons/twitter.svg": "a4a0163fef48a4247a305528c07bc4fa",
+"assets/assets/icons/behance.svg": "1487dff57f5c15131037cb6965a4d0bf",
+"assets/assets/icons/check.svg": "bce7a581bb999caac446c9138a57a401",
+"assets/assets/icons/download.svg": "8c24d4679cb0c5297277321bf7b65d28",
+"assets/assets/icons/dribble.svg": "cf842513f50591eb280695ad14bfa409",
+"assets/assets/icons/github.svg": "49b7a0f6543674cc4743ec1a9f02e368",
+"assets/assets/icons/linkedin.svg": "2f5e837978e8a6bb595dfd11c8dbd42f",
+"assets/assets/icons/twitter.svg": "c09d9f98cb67b0dfc2aa4c63170f2632",
 "assets/assets/images/bg.jpeg": "c6449162dc3940daa640a43101cfd66c",
 "assets/assets/images/profileimage.jpg": "7910910048faeedacf3e91680dcc1c98",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -20,10 +20,10 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "2dc1c25a54b55f304330e219c03ce193",
-"/": "2dc1c25a54b55f304330e219c03ce193",
-"main.dart.js": "bb19a941774dc6e8baa70e459699c487",
-"manifest.json": "14533758d5adebb52c270151b0335f00",
+"index.html": "36eea7c92fb64a99c0977cd41dd647c8",
+"/": "36eea7c92fb64a99c0977cd41dd647c8",
+"main.dart.js": "6bb6412aaeec598954ddb9f268eafc7b",
+"manifest.json": "2c3b21d28f62baf6eaff50b301050ce0",
 "version.json": "d586b27bfd414595529379d2df0d6a21"
 };
 

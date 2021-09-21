@@ -24,7 +24,7 @@ class Coding extends StatelessWidget {
         AnimatedLinearProgressIndicator(percentage: 0.7, label: "Javascript",),
         AnimatedLinearProgressIndicator(percentage: 0.9, label: "HTML",),
         AnimatedLinearProgressIndicator(percentage: 0.75, label: "CSS",),
-        AnimatedLinearProgressIndicator(percentage: 0.6, label: "Javascript",)
+        AnimatedLinearProgressIndicator(percentage: 0.5, label: "Amazon AWS",)
       ],
     );
   }

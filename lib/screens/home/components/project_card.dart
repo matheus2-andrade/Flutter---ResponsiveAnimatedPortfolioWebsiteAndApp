@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:Matheus_Andrade/models/Project.dart';
 import 'package:Matheus_Andrade/responsive.dart';
+import 'dart:html' as html;
 
 import '../../../constants.dart';
 
@@ -35,9 +36,11 @@ class ProjectCard extends StatelessWidget {
           ),
           Spacer(),
           TextButton(
-              onPressed: () {},
+              onPressed: () {
+                html.window.open(project.link.toString(), project.link.toString());
+              },
               child: Text(
-                "Read More >>",
+                "Repositório >>",
                 style: TextStyle(color: primaryColor),
               ))
         ],

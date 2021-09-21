@@ -4,6 +4,7 @@ import 'package:Matheus_Andrade/responsive.dart';
 
 import '../../../constants.dart';
 import '../home_screen.dart';
+import 'dart:html' as html;
 
 class HomeBanner extends StatelessWidget {
   const HomeBanner({
@@ -29,7 +30,7 @@ class HomeBanner extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Discover my amazing \nprojects!",
+                  "Olá! Sou o Matheus!",
                   style: Responsive.isDesktop(context)
                       ? Theme.of(context).textTheme.headline3!.copyWith(
                             fontWeight: FontWeight.bold,
@@ -46,7 +47,10 @@ class HomeBanner extends StatelessWidget {
                 SizedBox(height: defaultPadding),
                 if (!Responsive.isMobileLarge(context))
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      html.window.open(
+                          "https://github.com/matheus2-andrade", "Github");
+                    },
                     style: TextButton.styleFrom(
                       padding: EdgeInsets.symmetric(
                           horizontal: defaultPadding * 2,
@@ -54,7 +58,7 @@ class HomeBanner extends StatelessWidget {
                       backgroundColor: primaryColor,
                     ),
                     child:
-                        Text("EXPLORE NOW", style: TextStyle(color: darkColor)),
+                        Text("VEJA MAIS", style: TextStyle(color: darkColor)),
                   )
               ],
             ),
@@ -80,7 +84,7 @@ class MyBuildAnimatedText extends StatelessWidget {
           if (!Responsive.isMobileLarge(context)) FlutterCodedText(),
           if (!Responsive.isMobileLarge(context))
             SizedBox(width: defaultPadding / 2),
-          Text("I build "),
+          Text("Eu construí um "),
           Responsive.isMobile(context)
               ? Expanded(child: AnimatedText())
               : AnimatedText(),
@@ -102,11 +106,11 @@ class AnimatedText extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedTextKit(
       animatedTexts: [
-        TyperAnimatedText("Responsive web and mobile app.",
+        TyperAnimatedText("site responsivo mobile e web.",
             speed: Duration(milliseconds: 60)),
-        TyperAnimatedText("complete e-Commerce app UI.",
+        TyperAnimatedText("e-Commerce completo.",
             speed: Duration(milliseconds: 60)),
-        TyperAnimatedText("Chat app with dark and light theme.",
+        TyperAnimatedText("app de chat.",
             speed: Duration(milliseconds: 60))
       ],
     );

@@ -26,13 +26,13 @@ class SideMenu extends StatelessWidget {
               padding: EdgeInsets.all(defaultPadding),
               child: Column(
                 children: [
-                  AreaInfoText(title: "Residence", text: "Brasil"),
+                  AreaInfoText(title: "País", text: "Brasil"),
                   AreaInfoText(
-                    title: "City",
+                    title: "Cidade",
                     text: "Recife-PE",
                   ),
                   AreaInfoText(
-                    title: "Age",
+                    title: "Idade",
                     text: "19",
                   ),
                   Skills(),
