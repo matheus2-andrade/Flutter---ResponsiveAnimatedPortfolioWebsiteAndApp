@@ -20,10 +20,10 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "36eea7c92fb64a99c0977cd41dd647c8",
-"/": "36eea7c92fb64a99c0977cd41dd647c8",
-"main.dart.js": "6bb6412aaeec598954ddb9f268eafc7b",
-"manifest.json": "2c3b21d28f62baf6eaff50b301050ce0",
+"index.html": "fd25739d100b397711a52710b35995e8",
+"/": "fd25739d100b397711a52710b35995e8",
+"main.dart.js": "4a87b0b82eeab40b38660c8a13653fe9",
+"manifest.json": "6fadf7f6f77ef6873905ed78a5ee70f0",
 "version.json": "d586b27bfd414595529379d2df0d6a21"
 };
 

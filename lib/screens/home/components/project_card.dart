@@ -40,7 +40,7 @@ class ProjectCard extends StatelessWidget {
                 html.window.open(project.link.toString(), project.link.toString());
               },
               child: Text(
-                "Repositório >>",
+                "Veja mais >>",
                 style: TextStyle(color: primaryColor),
               ))
         ],

@@ -23,6 +23,12 @@ List<Project> projects = [
         "Aplicativo de lista de tarefas que possibilita adicionar e remover tarefas, marcar concluidas, recuperar tarefas excluidas, filtragem de tarefas e armazenamento local.",
         link: "https://github.com/matheus2-andrade/To_Do_List"
   ),
+  Project(
+    title: "Aplicativo de cursos - Flutter",
+    description:
+        "Aplicativo mobile de cursos em Flutter. Desenvolvi esse aplicativo com o objetivo de aprender mais algumas técnicas, widgets e estruturação de código, o App consiste em uma UI de cursos que puxa os dados de um banco",
+        link: "https://www.linkedin.com/posts/matheusandrade47_projetocursosmatheusandrade-activity-6846480444154871810-HOTs"
+  ),
   /*Project(
     title: "Chat/Messaging App Light and Dark Theme - Flutter UI",
     description:
